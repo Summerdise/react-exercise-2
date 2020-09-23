@@ -1,0 +1,35 @@
+@import 'variables';
+#header{
+    background-color: $support-blue;
+    padding: $base-padding;
+}
+
+#title{
+    font-size: 50px;
+    line-height: 50px;
+    color: $white;
+}
+
+#buy_car_item{
+    display: block;
+    float: right;
+    margin-top: 8px;
+}
+
+#buy_car{
+    display: block;
+    float: left;
+}
+
+#amount{
+    margin:5px;
+    display: block;
+    float: right;
+    border-radius: 8px;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    background-color: $support-red;
+    line-height: 10px;
+}
+
